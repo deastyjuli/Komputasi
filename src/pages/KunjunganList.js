@@ -13,6 +13,7 @@ export default function KunjunganList() {
 
   const role = localStorage.getItem("role");
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchKunjungan();
   }, [id]);

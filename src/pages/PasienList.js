@@ -21,6 +21,7 @@ export default function PasienList() {
     setLastPage(res.data.last_page);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchPasien();
   }, [page, search]);
