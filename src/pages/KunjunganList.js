@@ -16,7 +16,7 @@ export default function KunjunganList() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchKunjungan();
-  }, [id]);
+  }, []);
 
   const fetchKunjungan = async () => {
     try {

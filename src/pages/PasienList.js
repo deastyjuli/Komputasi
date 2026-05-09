@@ -24,7 +24,7 @@ export default function PasienList() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchPasien();
-  }, [page, search]);
+  }, []);
 
   const openDeleteConfirm = (id) => {
     setSelectedId(id);
